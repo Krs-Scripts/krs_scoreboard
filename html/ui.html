@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./reset.css"/>
+        <title>Krs Scoreboard</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="scoreboard-block" style="display: none;"> 
+                <div class="scoreboard-header">
+                  <p>KRS SCOREBOARD</p>
+                </div>
+                <div class="scoreboard-info">
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title-players">
+                            <p>Total Players</p>
+                        </div>
+                        <div class="info-beam-status" id="total-players" style="color: #ededed"></div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title-players">
+                            <p>Police</p>
+                        </div>
+                        <div class="info-beam-status" id="police-count">0</div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title-players">
+                            <p>Mechanic</p>
+                        </div>
+                        <div class="info-beam-status" id="mechanic-count">0</div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title-players">
+                            <p>Ambulance</p>
+                        </div>
+                        <div class="info-beam-status" id="ambulance-count">0</div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title-players">
+                            <p>Car Dealer</p>
+                        </div>
+                        <div class="info-beam-status" id="cardealer-count">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
